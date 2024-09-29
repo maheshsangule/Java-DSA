@@ -10,6 +10,7 @@ public class PrimeNumberCheck {
         // Ask the user to input a number
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
+        // String str=new String();
 
         // Check if the number is prime
         if (isPrime(number)) {
