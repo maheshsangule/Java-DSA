@@ -8,6 +8,7 @@ public class sumOfFirstNNatNum {
         System.out.println("Enter a Natural number : ");
         System.out.println("sumOfFirstNNatNum.main()");
 
+        @SuppressWarnings("resource")
         int num = new Scanner(System.in).nextInt();
 
         int sum = 0;
