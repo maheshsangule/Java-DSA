@@ -4,6 +4,7 @@ import java.util.*;
 public class inputsInJava {
 
     // Inputs in Java
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -26,5 +27,7 @@ public class inputsInJava {
 
         System.out.println("Enter Long Value : " + sc.nextLong());
 
+
+        sc.close();
     }
 }
