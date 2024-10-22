@@ -8,7 +8,7 @@ public class inputsInJava {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter your Name : " + sc.next());
+        // System.out.println("Enter your Name : " + sc.next());
 
         System.out.println("Enter your Full name : " + sc.nextLine());
 
@@ -18,7 +18,7 @@ public class inputsInJava {
 
         System.out.println("Enter 1 Byte : " + sc.nextByte());
 
-        System.out.println("Are you working in Wipro is this true or False" + sc.nextBoolean());
+        System.out.println("Are you working in Wipro is this true or False : " + sc.nextBoolean());
 
         System.out.println("Enter any double value : " + sc.nextDouble());
 
